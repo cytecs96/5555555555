@@ -1,4 +1,4 @@
-# workflow-version: 026.10.30-Beta.2
+# workflow-version: 026.11.01-Beta
 name: Cytecs Enhanced Repository Analysis
 
 on:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  WORKFLOW_VERSION: "026.10.30-Beta.2"
+  WORKFLOW_VERSION: "026.11.01-Beta"
 
 # Least privilege: analysing only needs to read the code.
 permissions:
